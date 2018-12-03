@@ -4,7 +4,13 @@ mkdir -p info/
 for i in *.pdf
 do
 	echo $i
+	echo le nom de fichier est: $i >> "info/$i.txt"
+	
 	pdftotext -f 1 -l 2 "$i" "text2/$i.txt"
+	
+	echo Le titre de la recherche est: >> "info/$i.txt"
 	sed -n '1,2p' "text2/$i.txt" >> "info/$i.txt"
+	
+	echo L'abstract de l'auteur est: >> "info/$i.txt"
 	sed -n '/Abstract/,/Introduction/p' "text2/$i.txt" >> "info/$i.txt"
 done
