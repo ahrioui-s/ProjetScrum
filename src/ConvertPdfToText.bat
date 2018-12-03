@@ -12,5 +12,7 @@ do
 	sed -n '1,2p' "text2/$i.txt" >> "info/$i.txt"
 	
 	echo L'abstract de l'auteur est: >> "info/$i.txt"
-	sed -n '/Abstract/,/Introduction/p' "text2/$i.txt" >> "info/$i.txt"
+	cat "text2/$i.txt" | sed -n '/Abstract/,/Introduction/p' | sed -e  's:.*<Abstract>::' | sed -e 's:<Introduction>.*::'  >> "info/$i.txt"
+
 done
+
