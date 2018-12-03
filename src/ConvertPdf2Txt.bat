@@ -1,4 +1,6 @@
 cd "/home/nas02a/etudiants/inf/uapv1900224/Donnees_itinerantes/Papers"
+mkdir -p text2/ 
+mkdir -p info/ 
 for i in *.pdf
 do
 	echo $i
