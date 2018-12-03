@@ -1,0 +1,17 @@
+cd "/home/nas02a/etudiants/inf/uapv1900224/Donnees_itinerantes/Papers"
+mkdir -p text2/ 
+mkdir -p info/ 
+for i in *.pdf
+do
+	echo $i
+	cat >> "info/$i.txt" le titre est:
+	
+	$i >> "info/$i.txt"
+	pdftotext -f 1 -l 2 "$i" "text2/$i.txt"
+	
+	cat >> "info/$i.txt" le Titre est:
+	sed -n '1,2p' "text2/$i.txt" >> "info/$i.txt"
+	
+	cat >> "info/$i.txt" l'abstract est:
+	sed -n '/Abstract/,/Introduction/p' "text2/$i.txt" >> "info/$i.txt"
+done
