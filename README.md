@@ -18,11 +18,20 @@ Une série d'exemples pas à pas vous expliquant comment faire fonctionner un en
 
 Ouvrez un terminal Linux dans le dossier qui contient les Scripts
 
-Abstract.py
+Pour les fichier dont l'extention est .py , exemple : Abstract.py
 
 ```
-Give the example
+python Abstract.py
 ```
+
+Pour les fichier dont l'extention est .bat , exemple : ConvertPdf2Txt.bat
+
+
+```
+./ConvertPdf2Txt.bat
+
+```
+ConvertPdf2Txt.bat
 
 
 ## Codé avec
@@ -33,7 +42,12 @@ Give the example
 
 ## Auteurs
 
-[contributors](https://github.com/Hamzaim1/ProjetScrum/contributors) qui ont participé à ce projet.
+"Okba Taddrth" <okba.taddrth@alumni.univ-avignon.fr>
+"Hamza ZAIM" <hamza.zaim@alumni.univ-avignon.fr>
+"Imad IGUICHI" <imad.iguichi@alumni.univ-avignon.fr>
+"Karim Redjimi" <karim.redjimi@alumni.univ-avignon.fr>
+"Samir AHRIOUI" <samir.ahrioui@alumni.univ-avignon.fr>
+
 
 
 
