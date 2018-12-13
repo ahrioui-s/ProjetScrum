@@ -26,7 +26,7 @@ python Abstract.py
 
 Pour les fichier dont l'extention est .bat , exemple : ConvertPdf2Txt.bat
 
-
+ 
 ```
 ./ConvertPdf2Txt.bat
 
