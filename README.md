@@ -33,6 +33,19 @@ Pour les fichier dont l'extention est .bat , exemple : ConvertPdf2Txt.bat
 ```
 ConvertPdf2Txt.bat
 
+Pour le fichier ConvertPdfToTextIntroUntilConcl.sh ,
+
+  2 options: -x pour extraire ai format xml ,-t pour extraire juste le text
+```
+./ConvertPdfToTextIntroUntilConcl.sh -x 
+
+```
+or
+
+```
+./ConvertPdfToTextIntroUntilConcl.sh -t 
+
+```
 
 ## Codé avec
 
