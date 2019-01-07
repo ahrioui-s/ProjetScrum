@@ -49,9 +49,9 @@ or
 
 ## Codé avec
 
-* [C++] - langage de programmation
-* [python] - langage de programmation
-* [bash] - langage de programmation shell 
+* [C++] - pour test de rapidité uniquemment
+* [python] - langage de programmation première solution (obsolète)
+* [bash] - langage de programmation shell (version fonctionnelle)
 
 ## Auteurs
 
